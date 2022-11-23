@@ -1,0 +1,108 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.centrar{
+    text-align: center;
+}
+
+.centrar-parrafo{
+    text-align: justify;
+}
+
+.centrar-cont{
+    justify-content: center;
+}
+
+.centrar-items{
+    align-items: center;
+}
+
+.margen-logo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.margen-footer{
+    margin-top: 40px;
+}
+
+.paredes{
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+}
+
+.portada{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: url(./img/fondo2alt.jpg);
+    background-size: contain;
+}
+
+.divider{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.escalable{
+    max-width: 100%;
+    width: 400px;
+    border: 5px solid black;
+}
+
+.noimagen img{
+    display: none;
+}
+
+.notexto h4{
+    display: none;
+}
+
+.notexto p{
+    display: none;
+}
+
+@media (max-width: 400px){
+    .portada{
+        background-size: 310px 220px;
+    }
+    .portada h1{
+        font-size: 40px;
+    }
+    .margen-logo{
+        margin: 0px;
+    }
+    .section{
+        display: inline-block;
+    }
+    .noimagen h4{
+        display: none;
+    }
+    .noimagen p{
+        display: none;
+    }
+    .noimagen img{
+    display: inline-block;
+    }
+    .notexto h4{
+        justify-content: center;
+        text-align: justify;
+        display: inline-block;
+    }
+    .notexto p{
+        justify-content: center;
+        text-align: justify;;
+        display: inline-block;
+    }
+    .notexto img{
+    display: none;
+    }
+}
+
+@media (min-width: 993px) {
+    .nav-content{
+        display: none;
+    }
+}
